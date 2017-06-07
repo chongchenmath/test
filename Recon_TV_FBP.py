@@ -26,15 +26,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from odl.discr import uniform_discr, Gradient, uniform_partition
 from odl.phantom import shepp_logan, white_noise
-from odl.deform.LDDMM_gradiant_descent_scheme import (
-        LDDMM_gradient_descent_solver)
-from odl.deform.mrc_data_io import (read_mrc_data, geometry_mrc_data,
-                                    result_2_mrc_format, result_2_nii_format)
 from odl.tomo import RayTransform, fbp_op, Parallel2dGeometry
 from odl.operator import (BroadcastOperator, power_method_opnorm)
 from odl.solvers import (CallbackShow, CallbackPrintIteration, ZeroFunctional,
                          L2NormSquared, L1Norm, SeparableSum, 
-                         chambolle_pock_solver, conjugate_gradient_normal)
+                         chambolle_pock_solver)
 standard_library.install_aliases()
 
 
