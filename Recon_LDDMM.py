@@ -137,7 +137,7 @@ print('snr = {!r}'.format(snr))
 time_itvs = 20
 
 # Compute by LDDMM solver
-image_N0, E = odl.deform.LDDMM_gradient_descent_solver(
+image_N0, E = LDDMM_gradient_descent_solver(
         forward_op, noise_proj_data, template, time_itvs, niter, eps, lamb,
         kernel, impl1, impl2, callback)
     
