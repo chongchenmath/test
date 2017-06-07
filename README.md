@@ -1,2 +1,6 @@
-# odl_lddmm
-ODL implementation of LDDMM for inverse problems
+Implementation of shape based reconstruction with large diffeomorphic deformations
+==================================================================================
+
+Dependencies
+------------
+The code is currently based on [ODL](https://github.com/odlgroup/odl).
