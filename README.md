@@ -1,5 +1,5 @@
-Implementation of shape based reconstruction with large diffeomorphic deformations
-==================================================================================
+Implementation of shape based reconstruction using the large deformation diffeomorphic metric mapping framework
+===============================================================================================================
 
 Dependencies
 ------------
