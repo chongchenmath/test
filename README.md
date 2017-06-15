@@ -1,5 +1,5 @@
-Implementation of shape based image reconstruction using the large deformation diffeomorphic metric mapping framework
-=====================================================================================================================
+Code for the paper [Indirect Image Registration with Large Diffeomorphic Deformations](https://arxiv.org/abs/1706.04048)
+======================================================================================
 
 Dependencies
 ------------
